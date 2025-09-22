@@ -1,4 +1,5 @@
 # Netbird Install Script
+Automatically install and connect peers to a Netbird account
 
 # Usage
 > Replace SETUP_KEY_HERE with a Netbird setup key
@@ -7,6 +8,6 @@ iwr -useb https://raw.githubusercontent.com/christ-pher/netbird-install/refs/hea
 ```
 
 # Features
-[x] Downloads latest build of Netbird
-[x] Runs the installer silently
-[x] Connects using provided setup key
+- [x] Downloads latest build of Netbird
+- [x] Runs the installer silently
+- [x] Connects using provided setup key
