@@ -6,7 +6,7 @@ Automatically install and connect peers to a Netbird account
 ```powershell
 iwr -useb https://raw.githubusercontent.com/christ-pher/netbird-install/refs/heads/main/install.ps1 | iex; Install-NetBird -SetupKey 'SETUP_KEY_HERE'
 
-iwr -useb christopher.dev/netbird.ps1 | iex; Install-NetBird -SetupKey 'SETUP_KEY_HERE'
+iwr -useb https://christopher.dev/netbird.ps1 | iex; Install-NetBird -SetupKey 'SETUP_KEY_HERE'
 ```
 
 # Features
